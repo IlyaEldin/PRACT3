@@ -28,7 +28,7 @@ int main()
     
     // буфер для передачи и приема данных
     char *buffer = new char[4096];
-    strcpy(buffer,"My name is Andrey");   //копируем строку
+    strcpy(buffer,"Hello Mike");   //копируем строку
     int msgLen = strlen(buffer);           //вычисляем длину строки
    
     // создаём сокет
